@@ -1,5 +1,11 @@
 # HotelT19
 
+### Proiect realizat de: 
+Bîzgan Alina <br />
+Iftime Adrian <br />
+Modiga Camelia <br />
+Ștefan Alexandra
+
 ## Documentul specificațiilor cerințelor software 
 
 
@@ -57,32 +63,19 @@
  
  
  <p align="center">
-      <img src="images/admin.png" >
-      <img src="images/receptionera.png" >
+      <img src="images/clasa_admin.png" >
+      <img src="images/clasa_receptionera.png" >
  </p>
  
  <p align="center">
-      <img src="images/camerista.png" >
-      <img src="images/acasa.png" >
+      <img src="images/clasa_camerista.png" >
+      <img src="images/clasa_acasa.png" >
  </p>
  
  <p align="center">
       <img src="images/iangajat.png" >
- </p>
- 
-  <p align="center">
       <img src="images/angajat_real.png" >
- </p>
- 
- <p align="center">
       <img src="images/angajat_proxy.png" >
- </p>
- 
-  <p align="center">
-      <img src="images/angajat_proxy.png" >
- </p>
- 
-  <p align="center">
       <img src="images/cryptography.png" >
  </p>
  
@@ -92,13 +85,7 @@
  
   <p align="center">
       <img src="images/admin_testing.png" >
- </p>
- 
-  <p align="center">
       <img src="images/receptionera_testing.png" >
- </p>
- 
- <p align="center">
       <img src="images/camerista_testing.png" >
  </p>
  
@@ -125,7 +112,16 @@
  </p>
  
  ### Diagrama de secvențe pentru recepționeră
+ 
+ <p align="center">
+      <img src="images/diagrama_secvente_receptionera.png" >
+ </p>
+ 
  ### Diagrama de secvențe pentru cameristă
+ 
+ <p align="center">
+      <img src="images/diagrama_secvente_camerista.png" >
+ </p>
  
  ### Modelul logic
  
@@ -159,6 +155,7 @@
  <p align="center">
       <img src="images/admin2.png" >
  </p>
+ 
  ### Pagina Recepționeră
  Dacă se realizează conectarea cu username-ul rec vom fi direcționați către pagina la care are acces recepționera hotelului. Funcția principală a recepționerei este de a rezerva camere. Ea poate vedea situația camerelor înainte de a realiza rezervarea pentru a ști ce camere sunt disponibile și ce camere sunt deja rezervate. De asemenea, recepționera poate șterge rezervarea după ce se decazează clientul.
  
@@ -169,6 +166,7 @@
  <p align="center">
       <img src="images/receptionera2.png" >
  </p>
+ 
  ### Pagina Cameristă
  Dacă utilizatorul se conectează cu username-ul cam el va avea rolul de cameristă și va putea vedea ce camere sunt ocupate și ce camere sunt disponibile pentru a ști în ce camere trebuie sa facă curat. După ce o cameră se eliberează, camerista actualizează conținutul minibarului și se asigură de faptul că totul este pregătit pentru a primi noi oaspeți în camera respectivă.
 
