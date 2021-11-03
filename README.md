@@ -49,15 +49,95 @@
  ## Diagrame UML
  
  ### Diagrama de cazuri de utilizare
+ <p align="center">
+      <img src="images/diagrama_cazuri_de_utilizare.png" >
+ </p>
+ 
  ### Diagrama de clase
+ 
+ 
+ <p align="center">
+      <img src="images/admin.png" >
+      <img src="images/receptionera.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/camerista.png" >
+      <img src="images/acasa.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/iangajat.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/angajat_real.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/angajat_proxy.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/angajat_proxy.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/cryptography.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/functiidll.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/admin_testing.png" >
+ </p>
+ 
+  <p align="center">
+      <img src="images/receptionera_testing.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/camerista_testing.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/structure.png" >
+ </p>
+ 
  ### Diagrama de activități
+ 
+ <p align="center">
+      <img src="images/diagrama_de_activitati.png" >
+ </p>
+ 
  ### Diagrama de secvențe pentru utilizator
+ 
+ <p align="center">
+      <img src="images/diagrama_secvente_utilizator.png" >
+ </p>
+ 
  ### Diagrama de secvențe pentru administrator 
+ 
+ <p align="center">
+      <img src="images/diagrama_secvente_administrator.png" >
+ </p>
+ 
  ### Diagrama de secvențe pentru recepționeră
  ### Diagrama de secvențe pentru cameristă
  
  ### Modelul logic
+ 
+ <p align="center">
+      <img src="images/logic.png" >
+ </p>
+ 
  ### Modelul relațional 
+ 
+ <p align="center">
+      <img src="images/relational.png" >
+ </p>
  
  ## Modul de utilizare a programului
  Aplicația își propune să ușureze munca angajaților unui hotel. Astfel totul va fi stocat în format electronic fără a exista posibilitatea de a încurca datele referitoare la rezervări, la camere sau la personalul hotelului.
@@ -65,11 +145,33 @@
  
  Când utilizatorul lansează în execuție aplicația acesta este direcționat pe pagina de Acasă unde are posibilitatea de a se conecta cu numele de utilizator și parola specifică postului pe care îl ocupă. Dacă nu se introduce un nume de utilizator sau o parolă validă acesta nu se va putea conecta și i se va cere să introducă un username sau o parolă corectă. Din pagina de Acasă utilizatorul poate vizualiza informații referitoare la funcționarea programului prin apăsarea butonului Ajutor care va deschide fișierul help asociat proiectului. Prin apăsarea butonului Contact se va deschide un Message Box care conține datele de contact ale hotelului iar prin apăsarea butonului Despre se va deschide un Message Box care conține informații referitoare la creatorii aplicației.
  
+ <p align="center">
+      <img src="images/acasa.png" >
+ </p>
+ 
  ### Pagina Administrator
  Dacă se realizează conectarea cu username-ul admin vom fi direcționați către o nouă pagină la care are acces doar administratorul hotelului. El poate vizualiza situația camerelor, fie ele ocupate sau rezervate, poate gestiona situația camerelor adică poate adăuga noi camere care vor putea fi închiriate sau poate șterge camerele dacă nu dorește să le ofere spre închiriere. Administratorul se ocupă si cu gestionarea personalului hotelului. El poate adăuga noi angajați sau îi poate șterge pe cei vechi. 
  
+ <p align="center">
+      <img src="images/admin1.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/admin2.png" >
+ </p>
  ### Pagina Recepționeră
  Dacă se realizează conectarea cu username-ul rec vom fi direcționați către pagina la care are acces recepționera hotelului. Funcția principală a recepționerei este de a rezerva camere. Ea poate vedea situația camerelor înainte de a realiza rezervarea pentru a ști ce camere sunt disponibile și ce camere sunt deja rezervate. De asemenea, recepționera poate șterge rezervarea după ce se decazează clientul.
  
+ <p align="center">
+      <img src="images/receptionera1.png" >
+ </p>
+ 
+ <p align="center">
+      <img src="images/receptionera2.png" >
+ </p>
  ### Pagina Cameristă
  Dacă utilizatorul se conectează cu username-ul cam el va avea rolul de cameristă și va putea vedea ce camere sunt ocupate și ce camere sunt disponibile pentru a ști în ce camere trebuie sa facă curat. După ce o cameră se eliberează, camerista actualizează conținutul minibarului și se asigură de faptul că totul este pregătit pentru a primi noi oaspeți în camera respectivă.
+
+<p align="center">
+      <img src="images/camerista.png" >
+ </p>
